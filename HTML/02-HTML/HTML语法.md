@@ -662,4 +662,18 @@ type 属性的属性值及其描述如下：
 
 2、`cols="每行中的字符数"`，`rows="显示的行数"`，在实际开发中不会使用，都是用 CSS 玩
 
-## 8.5 案例：注册页面
+### 8.5 案例：注册页面
+
+![image-20201023224529850](HTML语法.assets/image-20201023224529850.png)
+
+## 09 查阅文档
+
+经常查阅文档是一个好的学习习惯
+
+![image-20201023224838588](HTML语法.assets/image-20201023224838588.png)
+
+百度：https://www.baidu.com
+
+W3School：https://www.w3school.com.cn/
+
+MDN：https://developer.mozilla.org/zh-CN/docs/Web
