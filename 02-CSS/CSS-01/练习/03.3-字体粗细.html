@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体粗细</title>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+        .bold-1 {
+            /* 700后面不要加单位，等价于 bold 都i是加粗效果 */
+            /* 实际开发中更提倡用数字 加粗、变细 */
+            font-weight: 700;
+        }
+        .bold-head {
+            /* normal 默认值，不加粗 */
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="bold-head">晴天</h3>
+    <p>刮风这天</p>
+    <p class="bold-1">我试过握着你手</p>
+    <p>但偏偏</p>
+    <p>风渐渐</p>
+    <p class="bold">大到我看你不见</p>
+    <p>还要多久</p>
+</body>
+</html>
