@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+        /* 未访问的链接 ，把没有访问过的链接选择出来*/
+        a:link {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* 选择访问过的链接 */
+        a:visited {
+            color: orange;
+        }
+
+        /* 选择鼠标经过的那个链接 */
+        a:hover {
+            color: skyblue;
+        }
+
+        /* 选择鼠标按下但没有弹起鼠标的那个链接 */
+        a:active {
+            color: green;
+        }
+
+        /* 文字放大，易于观察 */
+        a {
+            font-size: 58px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">小猪佩奇</a>
+    <a href="#a">小猪乔治</a>
+    <a href="#b">小猪光头强</a>
+</body>
+
+</html>
