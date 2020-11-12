@@ -666,3 +666,78 @@ background: rgba(0, 0, 0, 0.3);
 3. 链接里面需要设置背景图片，因此需要用到背景图片的相关属性设置
 4. 鼠标经过变化背景图片，因此需要用到链接伪类选择器
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五彩导航</title>
+    <style>
+        .nav a {
+            display: inline-block;
+            width: 120px;
+            height: 58px;
+            background-color: moccasin;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .bg1 {
+            background: url(./images/bg1.png) no-repeat center top;
+        }
+
+        .nav .bg1:hover {
+            background-image: url(./images/bg11.png);
+        }
+
+        .nav .bg2 {
+            background: url(./images/bg2.png) no-repeat center top;
+        }
+
+        .nav .bg2:hover {
+            background-image: url(./images/bg22.png);
+        }
+
+        .nav .bg3 {
+            background: url(./images/bg3.png) no-repeat center top;
+        }
+
+        .nav .bg3:hover {
+            background-image: url(./images/bg11.png);
+        }
+
+        .nav .bg4 {
+            background: url(./images/bg4.png) no-repeat center top;
+        }
+
+        .nav .bg4:hover {
+            background-image: url(./images/bg22.png);
+        }
+
+        .nav .bg5 {
+            background: url(./images/bg5.png) no-repeat center top;
+        }
+
+        .nav .bg5:hover {
+            background-image: url(./images/bg11.png);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#" class="bg1">五彩导航1</a>
+        <a href="#" class="bg2">五彩导航2</a>
+        <a href="#" class="bg3">五彩导航3</a>
+        <a href="#" class="bg4">五彩导航4</a>
+        <a href="#" class="bg5">五彩导航5</a>
+    </div>
+</body>
+
+</html>
+```
+
